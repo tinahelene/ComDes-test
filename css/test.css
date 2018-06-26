@@ -1,19 +1,4 @@
 header{
-font-size: 80 px;
+font-size: 300 px;
 
-}
-
-.modalbox{
-  padding: 25px;
-  border: 1px solid #CCC;
-  background: #FFF;
-  height: 700px;
-  width: 500px;
-  display: none;
-  z-index: 9999;
-}
-
-.iw-modalOverlay{
-  background: #000;
-  opacity: .6;
 }
