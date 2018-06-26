@@ -1,4 +1,27 @@
 header{
-font-size: 300 px;
+font-size: 20px;
 
+}
+
+.modalbox{
+  padding: 25px;
+  border: 1px solid #CCC;
+  background:#527dc4;
+  height: 300px;
+  width: 500px;
+  display: none;
+  z-index:9999;
+}
+
+.iw-modalOverlay{
+  background: #000;
+  opacity: 0.1;
+}
+
+.mb{
+  position: static;
+}
+
+.ch{
+  float: left;
 }

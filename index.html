@@ -2,9 +2,20 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" type="text/css" href="css/test.css"/>
-
 <title>Kommunikasjonsdesign 2018</title>
+<link rel="stylesheet" type="text/css" href="css/test.css"/>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="modalbox.js"></script>
+
+
+<script>
+$(document).ready(function(){
+  $("#open").on('click', function() {
+    $("#modal").modalBox();
+  });
+});
+</script>
+
 </head>
 
 <body>
@@ -13,8 +24,26 @@
     <h3>Kommunikasjonsdesign høst 2018</h3>
   </header>
 
-<p>test</p>
-<p>test2</p>
+<article>
+
+<section id="mb">
+
+<h2>Modal box</h2>
+
+<button id="open">Trykk meg</button>
+
+<div id="modal" class="modalbox">
+  <p>Første modal box. Når knapp trykkes, brukes <code>ID modal</code> til script og <code>CLASS modalbox</code> til css.  </p>
+</div>
+</section>
+
+<section id="ch">
+
+<h2>Charts</h2>
+
+</section>
+
+</article>
 
 </body>
 </html>
